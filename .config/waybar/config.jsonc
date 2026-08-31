@@ -1,0 +1,22 @@
+{
+  "position": "top",
+  "height": 37,
+  "include": [
+    "$HOME/.config/waybar/modules/groups.jsonc",
+    "$HOME/.config/waybar/modules/default.jsonc"
+  ],
+
+  "modules-left": [
+    "group/hardware"
+  ],
+
+  "modules-center": [
+    "group/center"
+  ],
+
+  "modules-right": [
+    "group/righty1",
+    "group/righty2",
+    "group/righty3"
+  ]
+}

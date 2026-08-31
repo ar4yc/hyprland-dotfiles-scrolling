@@ -1,0 +1,56 @@
+{
+  "group/hardware": {
+    "orientation": "horizontal",
+    "modules": [
+      //"hyprland/workspaces",
+      "custom/gpu",
+      "cpu", 
+      "memory",
+      "custom/mpris-scroll"
+    ]
+  },
+
+  "group/time": {
+    "modules": [
+      "clock",
+      "clock#simple"
+    ],
+    "orientation": "horizontal"
+  },
+
+  "group/center": {
+    "orientation": "horizontal",
+    "modules": [
+      "group/time",
+      "custom/swaync"
+    ]
+  },
+
+  "group/righty1": {
+    "orientation": "horizontal",
+    "modules": [
+      "bluetooth",
+      "network"
+    ]
+  },
+
+  "group/righty2": {
+    "orientation": "horizontal",
+    "modules": [
+      "pulseaudio#output",
+      "pulseaudio#input",
+      "hyprland/language"
+    ]
+  },
+
+  "group/righty3": {
+    "orientation": "horizontal",
+    "modules": [
+      "tray",
+      "custom/gamemode",
+      "custom/noscreenshare",
+      "custom/clipboard",
+      "custom/power"
+    ]
+  }
+}
