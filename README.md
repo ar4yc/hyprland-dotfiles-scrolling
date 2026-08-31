@@ -2,7 +2,7 @@
 <h3 align="center">• For Scrolling Layout</h3>
 <details open>
 
-<summary><b>Used:</b></summary> 
+<summary><b>Used</b></summary> 
 
 > * Dock - Waybar
 > * Power Panel - WLogout
